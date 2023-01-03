@@ -1,4 +1,4 @@
-//json response 
+//json response
 var express=require('express');
 
 var app=express();
