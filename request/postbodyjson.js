@@ -10,5 +10,7 @@ app.post('/',function (req,res) {
     res.end(JSON.stringify(req.body))
 
 })
-app.listen(7005);
+app.listen(7005,function () {
+    console.log('server run successful')
+});
 
